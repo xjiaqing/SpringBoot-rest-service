@@ -1,4 +1,4 @@
-package com.spring.guides.gsrestservice;
+package com.spring.guides;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +16,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-class GsRestServiceApplicationTests {
+class ApplicationTests {
 
     @Autowired
     private MockMvc mockMvc;

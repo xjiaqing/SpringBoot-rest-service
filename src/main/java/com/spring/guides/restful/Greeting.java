@@ -1,4 +1,4 @@
-package com.spring.guides.gsrestservice;
+package com.spring.guides.restful;
 
 /**
  * @author xuejiaqing@do-global.com

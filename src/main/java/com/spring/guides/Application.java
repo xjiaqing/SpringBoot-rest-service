@@ -1,15 +1,13 @@
-package com.spring.guides.gsrestservice;
+package com.spring.guides;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
-
 @SpringBootApplication
-public class GsRestServiceApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(GsRestServiceApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
