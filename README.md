@@ -1,4 +1,4 @@
-#### Spring Boot
+#### Spring Boot Getting Started
 
 ##### Build a RESTful Web Service
 
