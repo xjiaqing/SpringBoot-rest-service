@@ -32,4 +32,9 @@
     - 也可以使用 `@Scheduled(cron=" . . .")` 进行更加复杂的任务调度，参考: [spring 中使用 cron 调度任务](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/scheduling/support/CronSequenceGenerator.html)
     
 2. 注解 `@EnableScheduling` 指明了需要在后台执行任务，如果没有的话则不会调度任何任务
-    
+
+##### Consuming a RESTful Web Service
+
+[原文地址](https://spring.io/guides/gs/consuming-rest/)
+
+todo 
