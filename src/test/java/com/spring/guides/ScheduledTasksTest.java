@@ -1,7 +1,6 @@
 package com.spring.guides;
 
 import com.spring.guides.tasks.ScheduledTasks;
-import org.awaitility.Awaitility;
 import org.awaitility.Duration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,8 +25,8 @@ public class ScheduledTasksTest {
 
     @Test
     public void reportCurrentTime() {
-        await().atMost(Duration.TEN_SECONDS).untilAsserted(() -> {
-            verify(tasks, atLeast(2)).reportCurrentTime();
-        });
+        await().atMost(Duration.TEN_SECONDS).untilAsserted(
+                () -> verify(tasks, atLeast(2)).reportCurrentTime()
+        );
     }
 }
