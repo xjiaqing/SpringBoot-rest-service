@@ -38,3 +38,12 @@
 [原文地址](https://spring.io/guides/gs/consuming-rest/)
 
 todo 
+
+##### Uploading Files
+
+[原文地址](https://spring.io/guides/gs/uploading-files/)
+
+1. 当类使用 `@Controller` 注解时，Spring MVC 就会在其中寻找路由定义
+
+2. 使用 `@GetMapping` 和 `@PostMapping` 注解标记的方法将会绑定 http 方法和 path 请求到对应的控制器类的方法
+
